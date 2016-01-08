@@ -4,7 +4,7 @@ import os, random
 
 __author__ = "Sreejith S"
 
-rootDir = os.path.abspath(__file__) + "/collection"
+rootDir = os.path.dirname(os.path.abspath(__file__)) + "/collection"
 wordDictionary = {}
 
 def addToDict(pair):
